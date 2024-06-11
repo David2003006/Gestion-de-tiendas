@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\OneDrive\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj": {}
+    "C:\\Users\\Sistemas\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\OneDrive\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj": {
+    "C:\\Users\\Sistemas\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\OneDrive\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj",
+        "projectUniqueName": "C:\\Users\\Sistemas\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj",
         "projectName": "GestionTienda",
-        "projectPath": "C:\\Users\\dell\\OneDrive\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\OneDrive\\Desktop\\Gestion-de-tiendas\\GestionTienda\\obj\\",
+        "projectPath": "C:\\Users\\Sistemas\\Desktop\\Gestion-de-tiendas\\GestionTienda\\GestionTienda.csproj",
+        "packagesPath": "C:\\Users\\Sistemas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sistemas\\Desktop\\Gestion-de-tiendas\\GestionTienda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sistemas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -47,9 +47,25 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -66,7 +82,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.16, 6.0.16]"
+              "version": "[6.0.31, 6.0.31]"
             }
           ],
           "frameworkReferences": {
@@ -74,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.423\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
